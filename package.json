@@ -1,0 +1,20 @@
+{
+  "name": "mern-stack-assessment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd mern-frontend && npm start", 
+    "server": "node server.js",                
+    "dev": "concurrently \"npm run server\" \"npm run start\""
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0" 
+  }
+}
